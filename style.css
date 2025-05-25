@@ -367,7 +367,7 @@ body {
 
     .theme-switcher {
         position: absolute;
-        top: 20px;
+        top: 40px;
         right: 80px;
         background: var(--card);
         padding: 5px 10px;
@@ -380,8 +380,18 @@ body {
         align-items: center;
         border: 2px solid transparent;
         cursor: pointer;
-
     }
+section{
+    position: relative;
+    padding: 50px 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 15px var(--shadow);
+    border-radius: 8px;
+}
+
 }
 
 /* Sections */
